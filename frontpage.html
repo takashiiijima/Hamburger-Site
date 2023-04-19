@@ -4,20 +4,34 @@
 <head>
 <meta charset="UTF-8">  
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./css/app.css">
+<link rel="stylesheet" href="../css/app.css">
 <title>Hamburger-site frontpage</title>
 </head>
 
 <body>
 <!--方向性：左半分はarticleで完結 右半分はasideで独立-->
 <div class="l-contents">
-    <article class="l-contents__leftcolumn">
-        <div class="l-header"></div> <!--ヘッダーコーディング-->
+
+    <article class="l-contents__leftcolumn"><!--ヘッダーから左部分～メインコンテンツ-->
+
+        <div class="l-header">
+            <div class="l-header__left"><!--ヘッダー左部分-->
+                <a href="#">
+                    <h1>Hamburger</h1>
+                </a>
+            </div>
+            <form class="l-header__right"><!--ヘッダー右部分-->
+                <input class="l-header__box " type="search">
+                <input class="l-header__button" type="submit" value="検索">
+            </form>
+        </div> 
+
         <div class="l-main">
             <div class="l-frontpage__top"></div>
             <div class="l-frontpage__center"></div>
             <div class="l-frontpage__bottom"></div>
         </div>
+
     </article>
     <aside class="l-contents__rightcolumn">
         <div class="l-sidebar"></div>

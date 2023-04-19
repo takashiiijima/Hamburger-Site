@@ -2,15 +2,15 @@
 * Foundation
 *============================== */
 
-@use "./foundation/_reset";
+@use "../foundation/_reset";
 
 
 /**
 * layout
 *============================== */
 
-
-
+@use "../layout/_header";
+@use "../layout/_contents";
 
 /**
 * object
