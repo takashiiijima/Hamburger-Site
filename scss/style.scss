@@ -1,17 +1,21 @@
+
 /**
 * Foundation
 *============================== */
 
-@use "../foundation/_reset";
-
+@use "foundation/reset";
+@use "foundation/base";
 
 /**
 * layout
 *============================== */
 
-@use "../layout/_header";
-@use "../layout/_contents";
+@use "layout/l-contents";
+@use "layout/l-header";
 
 /**
 * object
 *============================== */
+
+@use "object/component/c-logo";
+@use "object/component/c-search";

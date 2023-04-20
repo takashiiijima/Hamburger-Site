@@ -373,6 +373,67 @@ th {
   font-weight: bold;
 }
 
+h1 {
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+p {
+  font-family: "M+ 1m";
+}
+
+.l-contents {
+  display: flex;
+}
+.l-contents__leftcolumn {
+  width: 80.88%;
+  height: 100%;
+}
+.l-contents__rightcolumn {
+  width: 19.12%;
+  height: 80%;
+  background-color: #000000;
+}
+
+.l-header {
+  height: 217px;
+  width: 100%;
+  background-color: #FFF7EF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-logo {
+  font-size: 4rem;
+  color: #707070;
+  margin-left: 3rem;
+}
+
+.c-search__box {
+  height: 46px;
+  width: 367px;
+  border: 1px solid #707070;
+  border-radius: 0.67em;
+  background-color: #ffffff;
+  margin-right: 15px;
+}
+
+.c-search__button {
+  height: 46px;
+  width: 138px;
+  border: 1px solid #707070;
+  color: #707070;
+  border-radius: 0.67em;
+  background-color: #ded8d3;
+  margin-right: 39px;
+  font-family: "M+ 1m";
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
 /**
 * Foundation
 *============================== */
@@ -382,4 +443,4 @@ th {
 /**
 * object
 *============================== */
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=style.css.map */
