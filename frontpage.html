@@ -12,7 +12,7 @@
 <!--方向性：左半分はarticleで完結 右半分はasideで独立-->
 <div class="l-contents">
 
-    <article class="l-contents__leftcolumn"><!--ヘッダーから左部分～メインコンテンツ-->
+    <article class="l-contents__leftcolumn"><!--メインコンテンツ左部分（ヘッダー⇒メイン）-->
 
         <div class="l-header">
             <div class="c-logo"><!--ヘッダー左部分-->
@@ -27,17 +27,54 @@
         </div> 
 
         <div class="l-main">
-            <div class="l-frontpage__top"></div>
-            <div class="l-frontpage__center"></div>
-            <div class="l-frontpage__bottom"></div>
+            <div class="p-frontpage__top">
+                <p>ダミーサイト</p>
+            </div>
+
+
+            <div class="p-frontpage__center"></div>
+            <div class="p-frontpage__bottom"></div>
         </div>
 
     </article>
 
-    <aside class="l-contents__rightcolumn">
+    <aside class="l-contents__rightcolumn"><!--メインコンテンツ右部分（サイドバー）-->
 
-        <div class="l-sidebar">
-            <p>aaaaaaaa</p>
+        <div class="c-sidebar"><!--方向性：各々の品物名⇒リンクを想定<a>タグで整理-->
+        <a href="#">
+            <h2>Menu</h2>
+        </a>
+            <ul>
+                <li><a href="#"><h3>バーガー</h3></a>
+                    <ui>
+                        <li class="c-sidebar__menu"><a href="#">ハンバーガー</a></li>
+                        <li class="c-sidebar__menu"><a href="#">チーズバーガー</a></li>
+                        <li class="c-sidebar__menu"><a href="#">テリヤキバーガー</a></li>
+                        <li class="c-sidebar__menu"><a href="#">アボカドバーガー</a></li>
+                        <li class="c-sidebar__menu"><a href="#">フィッシュバーガー</a></li>
+                        <li class="c-sidebar__menu"><a href="#">ベーコンバーガー</a></li>
+                        <li class="c-sidebar__menu"><a href="#">チキンバーガー</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><h3>サイド</h3></a>
+                    <ui>
+                        <li class="c-sidebar__menu"><a href="#">ポテト</a></li>
+                        <li class="c-sidebar__menu"><a href="#">サラダ</a></li>
+                        <li class="c-sidebar__menu"><a href="#">ナゲット</a></li>
+                        <li class="c-sidebar__menu"><a href="#">コーン</a></li>
+                    </ui>
+                </li>
+                <li><a href="#"><h3>ドリンク</h3></a>
+                    <ui>
+                        <li class="c-sidebar__menu"><a href="#">コーラ</a></li>
+                        <li class="c-sidebar__menu"><a href="#">ファンタ</a></li>
+                        <li class="c-sidebar__menu"><a href="#">オレンジ</a></li>
+                        <li class="c-sidebar__menu"><a href="#">アップル</a></li>
+                        <li class="c-sidebar__menu"><a href="#">紅茶（Ice/Hot）</a></li>
+                        <li class="c-sidebar__menu"><a href="#">コーヒー（Ice/Hot）</a></li>
+                    </ui>
+                </li>
+            </ul>
         </div>
         
     </aside>

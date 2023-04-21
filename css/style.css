@@ -378,21 +378,35 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Roboto", "M+ 1m";
+  font-weight: bold;
+}
+
+a {
+  font-family: "Roboto", "M+ 1m";
+}
+
 p {
   font-family: "M+ 1m";
+}
+
+li {
+  list-style: none;
 }
 
 .l-contents {
   display: flex;
 }
+
 .l-contents__leftcolumn {
-  width: 80.88%;
+  width: 1553px;
   height: 100%;
-}
-.l-contents__rightcolumn {
-  width: 19.12%;
-  height: 80%;
-  background-color: #000000;
 }
 
 .l-header {
@@ -402,6 +416,12 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.l-contents__rightcolumn {
+  width: 368px;
+  height: 2843px;
+  background-color: #F2EDE9;
 }
 
 .c-logo {
@@ -414,9 +434,9 @@ p {
   height: 46px;
   width: 367px;
   border: 1px solid #707070;
-  border-radius: 0.67em;
+  border-radius: 0.7em;
   background-color: #ffffff;
-  margin-right: 15px;
+  margin-right: 12px;
 }
 
 .c-search__button {
@@ -424,14 +444,49 @@ p {
   width: 138px;
   border: 1px solid #707070;
   color: #707070;
-  border-radius: 0.67em;
+  border-radius: 0.7em;
   background-color: #ded8d3;
-  margin-right: 39px;
+  margin-right: 31px;
   font-family: "M+ 1m";
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
   cursor: pointer;
+}
+
+.c-sidebar h2 {
+  margin-left: 47px;
+  margin-top: 86px;
+  margin-bottom: 86px;
+  padding: 2px 0;
+  font-size: 34px;
+  color: #707070;
+}
+
+.c-sidebar h3 {
+  margin-left: 47px;
+  margin-top: 50px;
+  margin-bottom: 28px;
+  padding: 2px 0;
+  font-size: 24px;
+  color: #707070;
+}
+
+.c-sidebar__menu {
+  margin-left: 67px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 2px 0;
+  font-size: 20px;
+  color: #707070;
+}
+
+.p-frontpage__top {
+  height: 530px;
+  width: 100%;
+  background: url(../../../image/p-front-top.jpg) no-repeat;
+  background-size: cover;
+  transform: translate(0px, -20px);
 }
 
 /**
@@ -441,6 +496,9 @@ p {
 * layout
 *============================== */
 /**
-* object
+* object-component
+*============================== */
+/**
+* object-project
 *============================== */
 /*# sourceMappingURL=style.css.map */

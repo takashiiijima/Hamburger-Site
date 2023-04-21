@@ -1,13 +1,9 @@
-
-.l-contents__leftcolumn{
-    width: 80.88%;
-    height: 100%; 
+.l-contents{
     display: flex;
 }
+
+.l-contents__leftcolumn{
+    width: 1553px;
+    height: 100%; 
+}
    
-.l-contents__rightcolumn{
-    display: flex;
-    width: 19.12%;
-    height: 100%;
-    background-color:#e01f1f;
-   }

@@ -15,8 +15,15 @@
 @use "layout/l-sidebar";
 
 /**
-* object
+* object-component
 *============================== */
 
 @use "object/component/c-logo";
 @use "object/component/c-search";
+@use "object/component/c-sidebar";
+
+/**
+* object-project
+*============================== */
+
+@use "object/project/p-frontpage";
