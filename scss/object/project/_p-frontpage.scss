@@ -1,5 +1,14 @@
 .p-frontpage__top {
     height: 530px;
-    width: 100%;
-    background: url("../../../image/p-front-top.jpg") no-repeat;
+    background-image: url(../image/p-front-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -115px ;
+      
+    >P{
+      font-size: 40px;
+      padding-left: 86px;
+      padding-top: 259px;
+      color:#ffffff
+    }
   }
