@@ -403,7 +403,7 @@ a {
 }
 
 p {
-  font-family: "M+ 1m";
+  font-family: "Roboto", "M+ 1m";
 }
 
 li {
@@ -524,6 +524,13 @@ li {
   background-position: center;
   background-image: url(../image/p-frontpage-center-takeout.jpg);
 }
+.p-frontpage__center__card--takeout > p {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 20px;
+}
 
 .p-frontpage__center__card--eatin {
   margin: 40px;
@@ -532,6 +539,13 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../image/p-frontpage-center-eatin.jpg);
+}
+.p-frontpage__center__card--eatin > p {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 /**
