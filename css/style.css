@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! destyle.css v4.0.0 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
 /* ============================================ */
@@ -373,6 +374,15 @@ th {
   font-weight: bold;
 }
 
+/**
+ * body:仮置き
+ */
+body {
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+}
+
 h1 {
   font-family: "Roboto";
   font-weight: bold;
@@ -490,6 +500,7 @@ li {
 }
 .p-frontpage__top > P {
   font-size: 40px;
+  font-weight: bold;
   padding-left: 86px;
   padding-top: 259px;
   color: #ffffff;
