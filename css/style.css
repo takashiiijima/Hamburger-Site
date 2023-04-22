@@ -434,6 +434,11 @@ li {
   background-color: #F2EDE9;
 }
 
+.l-main {
+  width: 1553px;
+  background-color: #FFFDFA;
+}
+
 .c-logo {
   font-size: 4rem;
   color: #707070;
@@ -504,6 +509,28 @@ li {
   padding-left: 86px;
   padding-top: 259px;
   color: #ffffff;
+}
+
+.p-frontpage__center {
+  padding: 80px 72px 95px 72px;
+}
+
+.p-frontpage__center__card--takeout {
+  margin: 40px;
+  width: 50%;
+  height: 1193px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../image/p-frontpage-center-takeout.jpg);
+}
+
+.p-frontpage__center__card--eatin {
+  margin: 40px;
+  width: 50%;
+  height: 1193px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../image/p-frontpage-center-eatin.jpg);
 }
 
 /**
