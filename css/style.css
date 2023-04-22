@@ -513,11 +513,12 @@ li {
 
 .p-frontpage__center {
   padding: 80px 72px 95px 72px;
+  display: flex;
 }
 
 .p-frontpage__center__card--takeout {
   margin: 40px;
-  width: 50%;
+  width: 625px;
   height: 1193px;
   background-repeat: no-repeat;
   background-position: center;
@@ -526,7 +527,7 @@ li {
 
 .p-frontpage__center__card--eatin {
   margin: 40px;
-  width: 50%;
+  width: 625px;
   height: 1193px;
   background-repeat: no-repeat;
   background-position: center;
