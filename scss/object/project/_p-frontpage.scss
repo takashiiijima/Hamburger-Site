@@ -23,15 +23,16 @@
       margin: 40px;
       width: 625px;
       height: 1193px;
-      padding:20px 20px 20px 20px;
+      position: relative;
       background-repeat: no-repeat;
       background-position: center;
       background-image: url(../image/p-frontpage-center-takeout.jpg);
 
-      >p{
+      > h2{
         color: #ffffff;
         font-size: 80px;
         font-weight: bold;
+        margin: 20px;
       }
      }
 
@@ -39,23 +40,22 @@
       margin: 40px;
       width: 625px;
       height: 1193px;
-      padding:20px 20px 20px 20px;
+      position: relative;
       background-repeat: no-repeat;
       background-position: center;
       background-image: url(../image/p-frontpage-center-eatin.jpg);
 
-      >p{
+      > h2{
         color: #ffffff;
         font-size: 80px;
         font-weight: bold;
+        margin: 20px;
       }
     }
      
-  .p-frontpage__center__textbox{
-      height: 174px;
-      margin-top:20px;
-      background-color: rgba(#fff, 0.6);
-      padding:0px 20px 0px 20px;
-      
-  }
+.p-frontpage__text{
+       position: absolute;
+       margin: 0 20px 0 20px;
+       bottom: 20px;
+}
   

@@ -1,19 +1,21 @@
-.c-sidebar h2{
+.c-sidebar__title{
     margin-left: 47px;
     margin-top: 86px;
     margin-bottom: 86px;
     padding:2px 0;
     font-size: 34px;
     color:#707070;
+    font-weight: bold;
 }
 
-.c-sidebar h3{
+.c-sidebar__category{
     margin-left: 47px;
     margin-top: 50px;
     margin-bottom: 31px;
     padding:2px 0;
     font-size: 24px;
     color:#707070;
+    font-weight: bold;
 }
 
 .c-sidebar__menu{

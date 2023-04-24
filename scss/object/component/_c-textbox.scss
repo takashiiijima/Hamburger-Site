@@ -1,0 +1,19 @@
+.c-frontpage__textbox{
+    height: 174px;
+    margin-top:20px;
+    padding:20px 20px;
+    background-color: rgba(#fff, 0.7);
+
+    > h3{
+        font-size: 24px;
+        font-family: "M+ 1m";
+        margin:0px 0px 9px 0px;
+       }
+
+    > p{
+        font-size: 16px;
+        font-weight: 400;
+        text-align:justify;
+        line-height: 1.5;
+    }
+}

@@ -394,7 +394,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Roboto", "M+ 1m";
+  font-family: "M+ 1m";
   font-weight: bold;
 }
 
@@ -469,22 +469,24 @@ li {
   cursor: pointer;
 }
 
-.c-sidebar h2 {
+.c-sidebar__title {
   margin-left: 47px;
   margin-top: 86px;
   margin-bottom: 86px;
   padding: 2px 0;
   font-size: 34px;
   color: #707070;
+  font-weight: bold;
 }
 
-.c-sidebar h3 {
+.c-sidebar__category {
   margin-left: 47px;
   margin-top: 50px;
   margin-bottom: 31px;
   padding: 2px 0;
   font-size: 24px;
   color: #707070;
+  font-weight: bold;
 }
 
 .c-sidebar__menu {
@@ -494,6 +496,24 @@ li {
   padding: 2px 0;
   font-size: 20px;
   color: #707070;
+}
+
+.c-frontpage__textbox {
+  height: 174px;
+  margin-top: 20px;
+  padding: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.c-frontpage__textbox > h3 {
+  font-size: 24px;
+  font-family: "M+ 1m";
+  margin: 0px 0px 9px 0px;
+}
+.c-frontpage__textbox > p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.5;
 }
 
 .p-frontpage__top {
@@ -520,37 +540,38 @@ li {
   margin: 40px;
   width: 625px;
   height: 1193px;
-  padding: 20px 20px 20px 20px;
+  position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../image/p-frontpage-center-takeout.jpg);
 }
-.p-frontpage__center__card--takeout > p {
+.p-frontpage__center__card--takeout > h2 {
   color: #ffffff;
   font-size: 80px;
   font-weight: bold;
+  margin: 20px;
 }
 
 .p-frontpage__center__card--eatin {
   margin: 40px;
   width: 625px;
   height: 1193px;
-  padding: 20px 20px 20px 20px;
+  position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../image/p-frontpage-center-eatin.jpg);
 }
-.p-frontpage__center__card--eatin > p {
+.p-frontpage__center__card--eatin > h2 {
   color: #ffffff;
   font-size: 80px;
   font-weight: bold;
+  margin: 20px;
 }
 
-.p-frontpage__center__textbox {
-  height: 174px;
-  margin-top: 20px;
-  background-color: rgba(255, 255, 255, 0.6);
-  padding: 0px 20px 0px 20px;
+.p-frontpage__text {
+  position: absolute;
+  margin: 0 20px 0 20px;
+  bottom: 20px;
 }
 
 /**
