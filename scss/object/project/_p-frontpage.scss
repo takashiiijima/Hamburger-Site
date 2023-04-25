@@ -59,3 +59,34 @@
        bottom: 20px;
 }
   
+.p-frontpage__map{
+      width:100%;
+      height:650px;
+      position: relative;
+
+      iframe{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+      }
+}
+
+.p-frontpage__layer--below{
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(#000000, 0.40);
+  z-index: 100;
+}
+
+.p-frontpage__layer--above{
+  top: 0;
+  width: 61.17%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(#000000, 0.29);
+  z-index: 110;
+}
