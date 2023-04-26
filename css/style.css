@@ -419,6 +419,12 @@ li {
   height: 100%;
 }
 
+.l-footer {
+  height: 150px;
+  width: 1920px;
+  background-color: #9D8670;
+}
+
 .l-header {
   height: 217px;
   width: 100%;
@@ -452,6 +458,9 @@ li {
   border-radius: 0.7em;
   background-color: #ffffff;
   margin-right: 12px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
 }
 
 .c-search__button {
@@ -516,6 +525,69 @@ li {
   line-height: 1.5;
 }
 
+.c-textbox__map {
+  width: 100%;
+  padding-top: 83px;
+}
+.c-textbox__map > h2 {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "M+ 1m";
+  font-weight: bold;
+  position: relative;
+}
+.c-textbox__map h2::after {
+  content: "";
+  width: 75px;
+  height: 2px;
+  display: inline-block;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -56px;
+  left: 0px;
+}
+.c-textbox__map > p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: justify;
+  line-height: 1.5;
+  position: relative;
+  line-height: 2em;
+  bottom: -119px;
+  /**
+  * bottom 暫定
+  *============================== */
+}
+
+.c-footer {
+  padding-top: 39px;
+  color: #ffffff;
+  text-align: center;
+}
+.c-footer .c-footer__shopinfo {
+  font-size: 20px;
+  margin: 0 11px 0 0;
+  position: relative;
+}
+.c-footer .c-footer__shopinfo::after {
+  content: "";
+  background-color: #ffffff;
+  margin-left: 14px;
+  width: 1px;
+  height: 22px;
+  position: absolute;
+}
+.c-footer .c-footer__history {
+  font-size: 20px;
+  margin: 0 0 0 11px;
+}
+.c-footer .c-footer__copyright {
+  font-size: 14px;
+  font-family: "M+ 1m", "Roboto";
+  margin-top: 34px;
+}
+
 .p-frontpage__top {
   height: 530px;
   background-image: url(../image/p-front-top.jpg);
@@ -550,6 +622,17 @@ li {
   font-size: 80px;
   font-weight: bold;
   margin: 20px;
+  position: relative;
+}
+.p-frontpage__center__card--takeout h2::after {
+  content: "";
+  width: 63px;
+  height: 4px;
+  display: inline-block;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -35px;
+  left: 10px;
 }
 
 .p-frontpage__center__card--eatin {
@@ -566,11 +649,22 @@ li {
   font-size: 80px;
   font-weight: bold;
   margin: 20px;
+  position: relative;
+}
+.p-frontpage__center__card--eatin h2::after {
+  content: "";
+  width: 63px;
+  height: 4px;
+  display: inline-block;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -35px;
+  left: 10px;
 }
 
 .p-frontpage__text {
   position: absolute;
-  margin: 0 20px 0 20px;
+  margin: 0 20px 20px 20px;
   bottom: 20px;
 }
 
@@ -603,6 +697,8 @@ li {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.29);
   z-index: 110;
+  padding: 0 134px 0 119px;
+  position: relative;
 }
 
 /**

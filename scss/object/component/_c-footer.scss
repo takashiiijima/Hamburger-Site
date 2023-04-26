@@ -1,0 +1,31 @@
+.c-footer{
+    padding-top: 39px;
+    color:#ffffff;
+    text-align: center;
+
+    .c-footer__shopinfo{
+        font-size: 20px;
+        margin:0 11px 0 0;
+        position: relative;
+    }
+
+    .c-footer__shopinfo::after{
+        content: "";
+        background-color: #ffffff;
+        margin-left: 14px;
+        width: 1px;
+        height: 22px;
+        position: absolute;
+    }
+
+    .c-footer__history{
+        font-size: 20px;
+        margin:0 0 0 11px;
+    }
+
+    .c-footer__copyright{
+        font-size: 14px;
+        font-family: "M+ 1m", "Roboto";
+        margin-top: 34px;
+    }
+}

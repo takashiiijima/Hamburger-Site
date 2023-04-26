@@ -2,7 +2,7 @@
     height: 174px;
     margin-top:20px;
     padding:20px 20px;
-    background-color: rgba(#fff, 0.7);
+    background-color: rgba(#ffffff, 0.7);
 
     > h3{
         font-size: 24px;
@@ -15,5 +15,43 @@
         font-weight: 400;
         text-align:justify;
         line-height: 1.5;
+    }
+}
+
+.c-textbox__map{
+    width: 100%;
+    padding-top: 83px;
+
+    > h2{
+        font-size: 36px;
+        color:#ffffff;
+        font-family: "M+ 1m";
+        font-weight: bold;
+        position: relative;
+    }
+
+    h2::after{
+        content: "";
+        width: 75px;
+        height: 2px;
+        display: inline-block;
+        background-color: #ffffff;
+        position: absolute;
+        bottom: -56px;
+        left: 0px;
+      }
+
+    > p{
+        font-size: 16px;
+        font-weight: bold;
+        color:#ffffff;
+        text-align: justify;
+        line-height: 1.5;
+        position: relative;
+        line-height: 2em;
+        bottom: -119px;
+        /**
+        * bottom 暫定
+        *============================== */
     }
 }

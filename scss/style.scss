@@ -11,6 +11,7 @@
 *============================== */
 
 @use "layout/l-contents";
+@use "layout/l-footer";
 @use "layout/l-header";
 @use "layout/l-sidebar";
 @use "layout/l-main";
@@ -23,6 +24,7 @@
 @use "object/component/c-search";
 @use "object/component/c-sidebar";
 @use "object/component/c-textbox";
+@use "object/component/c-footer";
 
 /**
 * object-project
