@@ -10,6 +10,10 @@
     font-weight: 900;
     display: inline-block;
 
+    ::placeholder{
+        font-size: 18px;
+        padding-left: 15px;
+    }
 }
 
 .c-search__button{
