@@ -417,11 +417,12 @@ input {
 
 .l-contents {
   display: flex;
+  height: auto;
 }
 
 .l-contents__leftcolumn {
   width: 1553px;
-  height: 100%;
+  height: auto;
 }
 
 .l-footer {
@@ -441,7 +442,7 @@ input {
 
 .l-contents__rightcolumn {
   width: 368px;
-  height: 2843px;
+  height: auto;
   background-color: #F2EDE9;
 }
 
@@ -565,9 +566,9 @@ input {
   color: #ffffff;
   text-align: justify;
   line-height: 1.5;
-  position: relative;
   line-height: 2em;
-  bottom: -119px;
+  padding-top: 170px;
+  padding-bottom: 83px;
   /**
   * bottom 暫定
   *============================== */
