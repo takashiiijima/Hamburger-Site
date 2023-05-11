@@ -23,9 +23,13 @@
         margin:0 0 0 11px;
     }
 
-    .c-footer__copyright{
-        font-size: 14px;
-        font-family: "M+ 1m", "Roboto";
-        margin-top: 34px;
-    }
+}
+
+.c-footer__copyright{
+    display: flex;
+    font-size: 14px;
+    font-family: "M+ 1m", "Roboto";
+    margin-top: 34px;
+    justify-content: center;
+    color:#ffffff;
 }
