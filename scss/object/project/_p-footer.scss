@@ -1,15 +1,15 @@
-.c-footer{
+.p-footer{
     padding-top: 39px;
     color:#ffffff;
     text-align: center;
 
-    .c-footer__shopinfo{
+    .p-footer__shopinfo{
         font-size: 20px;
         margin:0 11px 0 0;
         position: relative;
     }
 
-    .c-footer__shopinfo::after{
+    .p-footer__shopinfo::after{
         content: "";
         background-color: #ffffff;
         margin-left: 14px;
@@ -18,14 +18,13 @@
         position: absolute;
     }
 
-    .c-footer__history{
+    .p-footer__history{
         font-size: 20px;
         margin:0 0 0 11px;
     }
-
 }
 
-.c-footer__copyright{
+.p-footer__copyright{
     display: flex;
     font-size: 14px;
     font-family: "M+ 1m", "Roboto";

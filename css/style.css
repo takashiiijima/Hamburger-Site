@@ -422,8 +422,8 @@ input {
 
 .l-footer {
   height: 150px;
-  width: 1920px;
-  background-image: url(../image/c-frontpage-footer.png);
+  width: 100%;
+  background-image: url(../image/p-frontpage-footer.png);
 }
 
 .l-header {
@@ -450,161 +450,6 @@ input {
   width: 1553px;
   height: auto;
   background-color: #FFFDFA;
-}
-
-.c-logo {
-  font-size: 4rem;
-  color: #707070;
-  margin-left: 4rem;
-}
-
-.c-search__box {
-  height: 46px;
-  width: 367px;
-  border: 1px solid #707070;
-  border-radius: 0.7em;
-  background-color: #ffffff;
-  margin-right: 12px;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  display: inline-block;
-}
-.c-search__box ::-moz-placeholder {
-  font-size: 18px;
-  padding-left: 15px;
-}
-.c-search__box ::placeholder {
-  font-size: 18px;
-  padding-left: 15px;
-}
-
-.c-search__button {
-  height: 46px;
-  width: 138px;
-  border: 1px solid #707070;
-  color: #707070;
-  border-radius: 0.7em;
-  background: linear-gradient(to right, #F2EDE9, #DED8D3);
-  margin-right: 31px;
-  font-family: "M+ 1m";
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
-  cursor: pointer;
-}
-
-.c-sidebar__title {
-  margin-left: 47px;
-  margin-top: 86px;
-  margin-bottom: 86px;
-  padding: 2px 0;
-  font-size: 34px;
-  color: #707070;
-  font-weight: bold;
-}
-
-.c-sidebar__category {
-  margin-left: 47px;
-  margin-top: 50px;
-  margin-bottom: 31px;
-  padding: 2px 0;
-  font-size: 24px;
-  color: #707070;
-  font-weight: bold;
-}
-
-.c-sidebar__menu {
-  margin-left: 67px;
-  margin-top: 15px;
-  margin-bottom: 24px;
-  padding: 2px 0;
-  font-size: 20px;
-  color: #707070;
-}
-
-.c-frontpage__textbox {
-  height: auto;
-  margin-top: 20px;
-  padding: 20px 20px;
-  background-color: rgba(255, 255, 255, 0.7);
-}
-.c-frontpage__textbox > h3 {
-  font-size: 24px;
-  font-family: "M+ 1m";
-  margin: 0px 0px 9px 0px;
-}
-.c-frontpage__textbox > p {
-  font-size: 16px;
-  font-weight: 400;
-  text-align: justify;
-  line-height: 1.5;
-}
-
-.c-textbox__map {
-  width: 100%;
-  padding-top: 83px;
-}
-.c-textbox__map > h2 {
-  font-size: 36px;
-  color: #ffffff;
-  font-family: "M+ 1m";
-  font-weight: bold;
-  position: relative;
-}
-.c-textbox__map h2::after {
-  content: "";
-  width: 75px;
-  height: 2px;
-  display: inline-block;
-  background-color: #ffffff;
-  position: absolute;
-  bottom: -56px;
-  left: 0px;
-}
-.c-textbox__map > p {
-  font-size: 16px;
-  font-weight: bold;
-  color: #ffffff;
-  text-align: justify;
-  line-height: 1.5;
-  line-height: 2em;
-  padding-top: 112px;
-  padding-bottom: 83px;
-  /**
-  * bottom 暫定
-  *============================== */
-}
-
-.c-footer {
-  padding-top: 39px;
-  color: #ffffff;
-  text-align: center;
-}
-.c-footer .c-footer__shopinfo {
-  font-size: 20px;
-  margin: 0 11px 0 0;
-  position: relative;
-}
-.c-footer .c-footer__shopinfo::after {
-  content: "";
-  background-color: #ffffff;
-  margin-left: 14px;
-  width: 1px;
-  height: 22px;
-  position: absolute;
-}
-.c-footer .c-footer__history {
-  font-size: 20px;
-  margin: 0 0 0 11px;
-}
-
-.c-footer__copyright {
-  display: flex;
-  font-size: 14px;
-  font-family: "M+ 1m", "Roboto";
-  margin-top: 34px;
-  justify-content: center;
-  color: #ffffff;
 }
 
 .p-frontpage__top {
@@ -718,6 +563,161 @@ input {
   z-index: 110;
   padding: 0 134px 0 119px;
   position: relative;
+}
+
+.p-footer {
+  padding-top: 39px;
+  color: #ffffff;
+  text-align: center;
+}
+.p-footer .p-footer__shopinfo {
+  font-size: 20px;
+  margin: 0 11px 0 0;
+  position: relative;
+}
+.p-footer .p-footer__shopinfo::after {
+  content: "";
+  background-color: #ffffff;
+  margin-left: 14px;
+  width: 1px;
+  height: 22px;
+  position: absolute;
+}
+.p-footer .p-footer__history {
+  font-size: 20px;
+  margin: 0 0 0 11px;
+}
+
+.p-footer__copyright {
+  display: flex;
+  font-size: 14px;
+  font-family: "M+ 1m", "Roboto";
+  margin-top: 34px;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.p-logo {
+  font-size: 4rem;
+  color: #707070;
+  margin-left: 4rem;
+}
+
+.p-search__box {
+  height: 46px;
+  width: 367px;
+  border: 1px solid #707070;
+  border-radius: 0.7em;
+  background-color: #ffffff;
+  margin-right: 12px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+}
+.p-search__box ::-moz-placeholder {
+  font-size: 18px;
+  padding-left: 15px;
+}
+.p-search__box ::placeholder {
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.p-search__button {
+  height: 46px;
+  width: 138px;
+  border: 1px solid #707070;
+  color: #707070;
+  border-radius: 0.7em;
+  background: linear-gradient(to right, #F2EDE9, #DED8D3);
+  margin-right: 31px;
+  font-family: "M+ 1m";
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.p-sidebar__title {
+  margin-left: 47px;
+  margin-top: 86px;
+  margin-bottom: 86px;
+  padding: 2px 0;
+  font-size: 34px;
+  color: #707070;
+  font-weight: bold;
+}
+
+.p-sidebar__category {
+  margin-left: 47px;
+  margin-top: 50px;
+  margin-bottom: 31px;
+  padding: 2px 0;
+  font-size: 24px;
+  color: #707070;
+  font-weight: bold;
+}
+
+.p-sidebar__menu {
+  margin-left: 67px;
+  margin-top: 15px;
+  margin-bottom: 24px;
+  padding: 2px 0;
+  font-size: 20px;
+  color: #707070;
+}
+
+.p-frontpage__textbox {
+  height: auto;
+  margin-top: 20px;
+  padding: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.p-frontpage__textbox > h3 {
+  font-size: 24px;
+  font-family: "M+ 1m";
+  margin: 0px 0px 9px 0px;
+}
+.p-frontpage__textbox > p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.p-textbox__map {
+  width: 100%;
+  padding-top: 83px;
+}
+.p-textbox__map > h2 {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "M+ 1m";
+  font-weight: bold;
+  position: relative;
+}
+.p-textbox__map h2::after {
+  content: "";
+  width: 75px;
+  height: 2px;
+  display: inline-block;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -56px;
+  left: 0px;
+}
+.p-textbox__map > p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: justify;
+  line-height: 1.5;
+  line-height: 2em;
+  padding-top: 112px;
+  padding-bottom: 83px;
+  /**
+  * bottom 暫定
+  *============================== */
 }
 
 /**

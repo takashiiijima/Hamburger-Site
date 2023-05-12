@@ -20,14 +20,19 @@
 * object-component
 *============================== */
 
-@use "object/component/c-logo";
-@use "object/component/c-search";
-@use "object/component/c-sidebar";
-@use "object/component/c-textbox";
-@use "object/component/c-footer";
+
+
+
+
+
 
 /**
 * object-project
 *============================== */
 
 @use "object/project/p-frontpage";
+@use "object/project/p-footer";
+@use "object/project/p-logo";
+@use "object/project/p-search";
+@use "object/project/p-sidebar";
+@use "object/project/p-textbox";
