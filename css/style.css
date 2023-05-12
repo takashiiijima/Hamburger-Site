@@ -420,15 +420,10 @@ input {
   height: auto;
 }
 
-.l-contents__leftcolumn {
-  width: 1553px;
-  height: auto;
-}
-
 .l-footer {
   height: 150px;
   width: 1920px;
-  background-color: #9D8670;
+  background-image: url(../image/c-frontpage-footer.png);
 }
 
 .l-header {
