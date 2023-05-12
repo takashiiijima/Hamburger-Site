@@ -484,7 +484,7 @@ input {
   border: 1px solid #707070;
   color: #707070;
   border-radius: 0.7em;
-  background-color: #ded8d3;
+  background: linear-gradient(to right, #F2EDE9, #DED8D3);
   margin-right: 31px;
   font-family: "M+ 1m";
   font-size: 1rem;
