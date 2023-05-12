@@ -417,6 +417,8 @@ input {
 
 .l-contents {
   display: flex;
+  max-width: 1920px;
+  width: 100vw;
   height: auto;
 }
 
@@ -436,18 +438,18 @@ input {
 }
 
 .l-contents__rightcolumn {
-  width: 368px;
+  width: 19.11vw;
   height: auto;
   background-color: #F2EDE9;
 }
 
 .l-contents__leftcolumn {
-  width: 1553px;
+  width: 80.88vw;
   height: auto;
 }
 
 .l-main {
-  width: 1553px;
+  width: 100%;
   height: auto;
   background-color: #FFFDFA;
 }
