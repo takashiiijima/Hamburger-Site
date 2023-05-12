@@ -458,7 +458,8 @@ input {
   height: 530px;
   background-image: url(../image/p-front-top.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: 0px -115px;
 }
 .p-frontpage__top > P {
