@@ -471,24 +471,27 @@ input {
 }
 
 .p-frontpage__center {
-  padding: 80px 72px 95px 72px;
+  margin: 120px 71px 134px 71px;
+  min-height: 1193px;
+  width: 1410px;
   display: flex;
 }
 
 .p-frontpage__center__card--takeout {
-  margin: 40px;
+  margin: 0px 40px 0px 40px;
   width: 625px;
-  height: 1193px;
+  min-height: 1193px;
   position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../image/p-frontpage-center-takeout.jpg);
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
 }
 .p-frontpage__center__card--takeout > h2 {
   color: #ffffff;
   font-size: 80px;
   font-weight: bold;
-  margin: 20px;
+  margin: 20px 20px 76px 20px;
+  position: absolute;
   position: relative;
 }
 .p-frontpage__center__card--takeout h2::after {
@@ -503,19 +506,20 @@ input {
 }
 
 .p-frontpage__center__card--eatin {
-  margin: 40px;
+  margin: 0px 40px 0px 40px;
   width: 625px;
-  height: 1193px;
+  min-height: 1193px;
   position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../image/p-frontpage-center-eatin.jpg);
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
 }
 .p-frontpage__center__card--eatin > h2 {
   color: #ffffff;
   font-size: 80px;
   font-weight: bold;
-  margin: 20px;
+  margin: 20px 20px 76px 20px;
+  position: absolute;
   position: relative;
 }
 .p-frontpage__center__card--eatin h2::after {
@@ -530,9 +534,7 @@ input {
 }
 
 .p-frontpage__text {
-  position: absolute;
-  margin: 0 20px 0 20px;
-  bottom: 20px;
+  margin-top: auto;
 }
 
 .p-frontpage__map {
@@ -672,8 +674,8 @@ input {
 
 .p-frontpage__textbox {
   height: auto;
-  margin-top: 20px;
-  padding: 20px 20px;
+  margin: 20px;
+  padding: 20px;
   background-color: rgba(255, 255, 255, 0.7);
 }
 .p-frontpage__textbox > h3 {
@@ -686,6 +688,10 @@ input {
   font-weight: 400;
   text-align: justify;
   line-height: 1.5;
+}
+
+.p-frontpage__textbox:nth-child(2) {
+  align-items: flex-end;
 }
 
 .p-textbox__map {

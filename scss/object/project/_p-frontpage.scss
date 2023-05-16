@@ -14,76 +14,80 @@
     }
   }
 
-.p-frontpage__center {
-    padding: 80px 72px 95px 72px; 
+  .p-frontpage__center {
+    margin: 120px 71px 134px 71px;
+    min-height: 1193px;
+    width: 1410px;
     display: flex;
   }
 
-.p-frontpage__center__card--takeout{
-      margin: 40px;
-      width: 625px;
-      height: 1193px;
-      position: relative;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-image: url(../image/p-frontpage-center-takeout.jpg);
+  .p-frontpage__center__card--takeout{
+    margin: 0px 40px 0px 40px;
+    width: 625px;
+    min-height: 1193px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    
 
-      > h2{
-        color: #ffffff;
-        font-size: 80px;
-        font-weight: bold;
-        margin: 20px;
-        position: relative;
-      }
-
-      h2::after{
-        content: "";
-        width: 63px;
-        height: 4px;
-        display: inline-block;
-        background-color: #ffffff;
-        position: absolute;
-        bottom: -35px;
-        left: 10px;
-      }
-     }
-
-.p-frontpage__center__card--eatin{
-      margin: 40px;
-      width: 625px;
-      height: 1193px;
-      position: relative;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-image: url(../image/p-frontpage-center-eatin.jpg);
-
-      > h2{
-        color: #ffffff;
-        font-size: 80px;
-        font-weight: bold;
-        margin: 20px;
-        position: relative;
-      }
-
-      h2::after{
-        content: "";
-        width: 63px;
-        height: 4px;
-        display: inline-block;
-        background-color: #ffffff;
-        position: absolute;
-        bottom: -35px;
-        left: 10px;
-      }
- }
-
-     
-.p-frontpage__text{
+    > h2{
+      color: #ffffff;
+      font-size: 80px;
+      font-weight: bold;
+      margin: 20px 20px 76px 20px;
       position: absolute;
-      margin: 0 20px 0 20px;
-      bottom: 20px;
-}
-  
+      position: relative;
+    }
+
+    h2::after{
+      content: "";
+      width: 63px;
+      height: 4px;
+      display: inline-block;
+      background-color: #ffffff;
+      position: absolute;
+      bottom: -35px;
+      left: 10px;
+    }
+   }
+
+
+  .p-frontpage__center__card--eatin{
+    margin:  0px 40px 0px 40px;
+    width: 625px;
+    min-height: 1193px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+
+    > h2{
+      color: #ffffff;
+      font-size: 80px;
+      font-weight: bold;
+      margin: 20px 20px 76px 20px;
+      position: absolute;
+      position: relative;
+    }
+
+    h2::after{
+      content: "";
+      width: 63px;
+      height: 4px;
+      display: inline-block;
+      background-color: #ffffff;
+      position: absolute;
+      bottom: -35px;
+      left: 10px;
+    }
+  }
+
+
+  .p-frontpage__text{
+    margin-top: auto;
+  }
+
 .p-frontpage__map{
       width: 100%;
       height: auto;

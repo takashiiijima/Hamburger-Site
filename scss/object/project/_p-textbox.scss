@@ -1,7 +1,7 @@
 .p-frontpage__textbox{
     height: auto;
-    margin-top:20px;
-    padding:20px 20px;
+    margin: 20px;
+    padding: 20px;
     background-color: rgba(#ffffff, 0.7);
 
     > h3{
@@ -17,6 +17,11 @@
         line-height: 1.5;
     }
 }
+
+.p-frontpage__textbox:nth-child(2){
+    align-items: flex-end;
+}
+
 
 .p-textbox__map{
     width: 100%;
