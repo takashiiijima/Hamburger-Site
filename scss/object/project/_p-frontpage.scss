@@ -27,7 +27,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-image: url("../image/p-frontpage-center-takeout.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     
 
     > h2{
@@ -59,7 +61,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-image: url("../image/p-frontpage-center-eatin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 
     > h2{
       color: #ffffff;

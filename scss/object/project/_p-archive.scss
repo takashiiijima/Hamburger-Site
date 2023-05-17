@@ -1,0 +1,120 @@
+.p-archive__top{
+    display: flex;
+    align-items: center;
+    height: 239px;
+    width: 100%;
+    background-image: url("../image/p-archive-top.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -632px ;
+    opacity: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.p-archive__top__menutitle{
+    padding-left:86px;
+    display: flex;
+    align-items: center;
+    z-index:100;
+
+    > h2{
+        color: #ffffff;
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    > p{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+}
+
+.p-archive__top__menutitle--blacklayer{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 239px;
+    width: 100%;
+    z-index:10;
+}
+
+.p-archive__text{
+    min-height: 277px;
+    width: 100%; 
+    padding: 60px 100px 70px 100px;
+    background-color: #FFFDFA;
+
+    >h3{
+        font-size: 36px;
+        font-weight: bold;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+
+    >p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+}
+
+.p-archive__center__wrapper{
+    height: auto;
+    padding: 0px 100px 0px 100px;
+}
+
+.p-archive__card{
+    min-height: 470px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: violet;
+    display: flex;
+
+    >img {
+       width: 50%;
+       height: auto;
+    }
+}
+
+.p-archive__card__introduce{
+    background-color: #3C2B1C;
+    padding: 53px 0px 60px 0px;
+
+    >h4{
+        color:#ffffff;
+        font-size: 36px;
+        font-weight: bold;
+        margin: 0px 104px 50px 63px;
+    }
+
+    >h5{
+        color:#ffffff;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0px 104px 17px 63px;
+    }
+
+    p{
+        color:#ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 63px;
+        margin-right: 104px;
+    }
+
+    a{
+        display: block;
+        font-size: 16px;
+        width: 43.34%;
+        color: #707070;
+        background-color: #ffffff;
+        margin: 82px auto 0 auto;
+        padding: 30px;
+        border-radius: 50px;
+        text-align: center;
+    }
+}
