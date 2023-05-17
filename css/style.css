@@ -860,7 +860,7 @@ input {
   display: flex;
 }
 .p-pagenation > ul > li {
-  padding: 0px 15px 0px 0px;
+  padding: 0px 13px 0px 0px;
   font-size: 16px;
 }
 .p-pagenation > ul > li:first-of-type {
