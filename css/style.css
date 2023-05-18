@@ -426,7 +426,8 @@ input {
 
 .l-contents {
   display: flex;
-  width: 100%;
+  max-width: 1920px;
+  width: 100vw;
   height: auto;
 }
 
