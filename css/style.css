@@ -851,42 +851,44 @@ input {
 
 .p-pagenation {
   width: 100%;
-  min-height: 159px;
+  min-height: 160px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .p-pagenation > ul {
-  display: flex;
+  display: flex; /**横に要素を整列**/
 }
-.p-pagenation > ul > li {
-  padding: 0px 13px 0px 0px;
-  font-size: 16px;
+.p-pagenation > ul .p-pagenation__navi {
+  padding: 10px 18px 0px 0px;
+  font-weight: bold;
+  color: #707070;
 }
-.p-pagenation > ul > li:first-of-type {
-  padding-top: 10px;
-  padding-left: -10px;
+.p-pagenation > ul .p-pagenation__mark--left {
+  display: inline-block;
+  padding: 10px 10px 0px 0px;
 }
-.p-pagenation > ul > li:first-of-type::after {
-  content: "<<";
-  color: #3C2B1C;
-  padding-left: 10px;
+.p-pagenation > ul .p-pagenation__mark--right {
+  display: inline-block;
+  padding: 10px 0px 0px 10px;
 }
-.p-pagenation > ul > li:last-of-type {
-  position: relative;
-}
-.p-pagenation > ul > li:last-of-type::after {
-  position: absolute;
-  top: 10px;
-  right: -21px;
-  content: ">>";
-  color: #3C2B1C;
-}
-.p-pagenation > ul > li a {
+.p-pagenation > ul .p-pagenation__numberbutton {
   display: block;
-  color: #3C2B1C;
-  border: solid 1px #3C2B1C;
-  padding: 7px 12px 7px 12px;
+  border: solid 1px #707070;
+  padding: 7px 11px;
+  margin: 0px 8px 0px 8px;
+  transition: 0.5s;
+}
+.p-pagenation > ul .p-pagenation__numberbutton a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #707070;
+  padding-bottom: 0px;
+  margin-bottom: -7px;
+}
+.p-pagenation > ul .p-pagenation__numberbutton:hover {
+  background-color: #3C2B1C;
+  transition: 0.5s;
 }
 
 /**
