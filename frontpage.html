@@ -9,132 +9,112 @@
 <title>Hamburger-site frontpage</title>
 </head>
 
-<body>
-<!--方向性：左半分はmain>section>article 右半分はnavでタグ分割-->
-<div class="l-contents">
+<body><!--方向性：左半分はmain>section>article 右半分はnavでタグ分割-->
+    <div class="l-contents">
+        <div class="l-contents__leftcolumn"><!--メインコンテンツ左部分（ヘッダー⇒メイン）-->
+            <header class="l-header">
+                <div class="p-logo"><!--ヘッダー左部分-->
+                    <a href="#"><h1>Hamburger</h1></a>
+                </div>
+                <form class="p-search"><!--ヘッダー右部分-->
+                    <input class="p-search__box" placeholder="&#xf002" style="font-family: FontAwesome" type="search">
+                    <button class="p-search__button">
+                        <p>検索</p>
+                    </button>
+                </form>
+            </header> 
 
-    <div class="l-contents__leftcolumn"><!--メインコンテンツ左部分（ヘッダー⇒メイン）-->
+            <main class="l-main">
+                <section class="p-frontpage__top"><!--メイン：ハンバーガー写真-->
+                    <p>ダミーサイト</p>
+                </section>
 
-        <div class="l-header">
-            <div class="p-logo"><!--ヘッダー左部分-->
-                <a href="#">
-                    <h1>Hamburger</h1>
-                </a>
-            </div>
-            <form class="p-search"><!--ヘッダー右部分-->
-                <input class="p-search__box" placeholder="&#xf002" style="font-family: FontAwesome" type="search">
-                <button class="p-search__button"><p>検索</p></button>
-            </form>
-        </div> 
+                <section class="p-frontpage__center">
+                    <article class="p-frontpage__center__card--takeout">
+                       <h2>Take Out</h2>
+                        <div class="p-frontpage__text">
+                            <div class="p-frontpage__textbox">
+                                <h3>Take Out</h3>
+                                <p>当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで</p>
+                            </div>
+                            <div class="p-frontpage__textbox">
+                                <h3>Take Out</h3>
+                                <p>当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="p-frontpage__center__card--eatin">
+                        <h2>Eat In</h2>
+                        <div class="p-frontpage__text">
+                            <div class="p-frontpage__textbox">
+                                <h3>Eat In</h3>
+                                <p>店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p>
+                            </div>
+                            <div class="p-frontpage__textbox">
+                                <h3>Eat In</h3>
+                                <p>店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p> </p>
+                            </div>
+                        </div> 
+                    </article>
+                </section>
 
-        <main class="l-main">
+                <section class="p-frontpage__map">
+                    <iframe src="https://maps.google.com/maps?output=embed&q=35.6585025,139.7454118&ll=35.658704,139.743963&t=m&hl=ja&z=19"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    <article class="p-frontpage__layer--below"></article>
+                    <article class="p-frontpage__layer--above">
+                        <div class="p-textbox__map">
+                            <h2>見出しが入ります</h2>
+                            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                        </div>
+                    </article>
+                </section>
+            </main>
+        </div>
 
-            <div class="p-frontpage__top"><!--メイン：ハンバーガー写真-->
-                <p>ダミーサイト</p>
-            </div>
-
-            <section class="p-frontpage__center">
-                <article class="p-frontpage__center__card--takeout">
-                    <h2>Take Out</h2>
-                    
-                    <div class="p-frontpage__text">
-                    <div class="p-frontpage__textbox">
-                            <h3>Take Out</h3>
-                            <p>当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで</p>
-                    </div>
-                    <div class="p-frontpage__textbox">
-                            <h3>Take Out</h3>
-                            <p>当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで</p>
-                    </div>
-                    </div>
-
-                </article>
-                <article class="p-frontpage__center__card--eatin">
-                    <h2>Eat In</h2>
-
-                    <div class="p-frontpage__text">
-                    <div class="p-frontpage__textbox">
-                        <h3>Eat In</h3>
-                        <p>店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p>
-                    </div>
-                    <div class="p-frontpage__textbox">
-                        <h3>Eat In</h3>
-                        <p>店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p> </p>
-                    </div>
-                    </div>
-                    
-                </article>
-
-            </section>
-
-            <section class="p-frontpage__map">
-                <iframe src="https://maps.google.com/maps?output=embed&q=35.6585025,139.7454118&ll=35.658704,139.743963&t=m&hl=ja&z=19"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                <article class="p-frontpage__layer--below"></article>
-                <article class="p-frontpage__layer--above">
-                    <div class="p-textbox__map">
-                        <h2>見出しが入ります</h2>
-                        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                    </div>
-                </article>
-            </section>
-
-        </main>
-
+        <nav class="l-contents__rightcolumn"><!--メインコンテンツ右部分（サイドバー）-->   
+            <div class="p-sidebar">  <!--方向性：各々の品物名⇒リンクを想定<a>タグで整理-->
+                <a href="#"><p class="p-sidebar__title">Menu</p></a>
+                <ul>
+                    <li><a href="#"><p class="p-sidebar__category">バーガー</p></a>
+                        <ui>
+                            <li class="p-sidebar__menu"><a href="#">ハンバーガー</a></li>
+                            <li class="p-sidebar__menu"><a href="#">チーズバーガー</a></li>
+                            <li class="p-sidebar__menu"><a href="#">テリヤキバーガー</a></li>
+                            <li class="p-sidebar__menu"><a href="#">アボカドバーガー</a></li>
+                            <li class="p-sidebar__menu"><a href="#">フィッシュバーガー</a></li>
+                            <li class="p-sidebar__menu"><a href="#">ベーコンバーガー</a></li>
+                            <li class="p-sidebar__menu"><a href="#">チキンバーガー</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><p class="p-sidebar__category">サイド</p></a>
+                        <ui>
+                            <li class="p-sidebar__menu"><a href="#">ポテト</a></li>
+                            <li class="p-sidebar__menu"><a href="#">サラダ</a></li>
+                            <li class="p-sidebar__menu"><a href="#">ナゲット</a></li>
+                            <li class="p-sidebar__menu"><a href="#">コーン</a></li>
+                        </ui>
+                    </li>
+                    <li><a href="#"><p class="p-sidebar__category">ドリンク</p></a>
+                        <ui>
+                            <li class="p-sidebar__menu"><a href="#">コーラ</a></li>
+                            <li class="p-sidebar__menu"><a href="#">ファンタ</a></li>
+                            <li class="p-sidebar__menu"><a href="#">オレンジ</a></li>
+                            <li class="p-sidebar__menu"><a href="#">アップル</a></li>
+                            <li class="p-sidebar__menu"><a href="#">紅茶（Ice/Hot）</a></li>
+                            <li class="p-sidebar__menu"><a href="#">コーヒー（Ice/Hot）</a></li>
+                        </ui>
+                    </li>
+                </ul>
+            </div>  
+        </nav>
     </div>
-
-    <nav class="l-contents__rightcolumn"><!--メインコンテンツ右部分（サイドバー）-->
-        
-        <div class="p-sidebar"><!--方向性：各々の品物名⇒リンクを想定<a>タグで整理-->
-        <a href="#">
-            <p class="p-sidebar__title">Menu</p>
-        </a>
-            <ul>
-                <li><a href="#"><p class="p-sidebar__category">バーガー</p></a>
-                    <ui>
-                        <li class="p-sidebar__menu"><a href="#">ハンバーガー</a></li>
-                        <li class="p-sidebar__menu"><a href="#">チーズバーガー</a></li>
-                        <li class="p-sidebar__menu"><a href="#">テリヤキバーガー</a></li>
-                        <li class="p-sidebar__menu"><a href="#">アボカドバーガー</a></li>
-                        <li class="p-sidebar__menu"><a href="#">フィッシュバーガー</a></li>
-                        <li class="p-sidebar__menu"><a href="#">ベーコンバーガー</a></li>
-                        <li class="p-sidebar__menu"><a href="#">チキンバーガー</a></li>
-                    </ul>
-                </li>
-                <li><a href="#"><p class="p-sidebar__category">サイド</p></a>
-                    <ui>
-                        <li class="p-sidebar__menu"><a href="#">ポテト</a></li>
-                        <li class="p-sidebar__menu"><a href="#">サラダ</a></li>
-                        <li class="p-sidebar__menu"><a href="#">ナゲット</a></li>
-                        <li class="p-sidebar__menu"><a href="#">コーン</a></li>
-                    </ui>
-                </li>
-                <li><a href="#"><p class="p-sidebar__category">ドリンク</p></a>
-                    <ui>
-                        <li class="p-sidebar__menu"><a href="#">コーラ</a></li>
-                        <li class="p-sidebar__menu"><a href="#">ファンタ</a></li>
-                        <li class="p-sidebar__menu"><a href="#">オレンジ</a></li>
-                        <li class="p-sidebar__menu"><a href="#">アップル</a></li>
-                        <li class="p-sidebar__menu"><a href="#">紅茶（Ice/Hot）</a></li>
-                        <li class="p-sidebar__menu"><a href="#">コーヒー（Ice/Hot）</a></li>
-                    </ui>
-                </li>
-            </ul>
-        </div>  
-
-    </nav>
-
-</div>
-<!--方向性：footerはサイト下部に設置-->
-<footer class="l-footer">
-
-    <div class="p-footer">
-        <a href="#" class="p-footer__shopinfo">ショップ情報</a> 
-        <a href="#" class="p-footer__history">ヒストリー</a>
-    </div>
-    <small class="p-footer__copyright">Copyright: RaiseTech</small>
-
-</footer>
-
+    <footer class="l-footer"><!--方向性：footerはサイト下部に設置-->
+        <div class="p-footer">
+            <a href="#" class="p-footer__shopinfo">ショップ情報</a> 
+            <a href="#" class="p-footer__history">ヒストリー</a>
+        </div>
+        <small class="p-footer__copyright">Copyright: RaiseTech</small>
+    </footer>
 </body>
 
 </html>

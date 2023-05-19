@@ -10,147 +10,124 @@
 </head>
 
 <body>
-<!--方向性：左半分はmain>section>article 右半分はnavでタグ分割-->
-<div class="l-contents">
-
-    <div class="l-contents__leftcolumn"><!--メインコンテンツ左部分（ヘッダー⇒メイン）-->
-
-        <div class="l-header">
-            <div class="p-logo"><!--ヘッダー左部分-->
-                <a href="#">
-                    <h1>Hamburger</h1>
-                </a>
-            </div>
-            <form class="p-search"><!--ヘッダー右部分-->
-                <input class="p-search__box" placeholder="&#xf002" style="font-family: FontAwesome" type="search">
-                <button class="p-search__button"><p>検索</p></button>
-            </form>
-        </div> 
-
-        <main class="l-main">
-
-            <div class="p-archive__top"><!--メイン：ハンバーガー写真-->
-                <div class="p-archive__top__menutitle">
-                   <h2>Menu:</h2>
-                   <p>チーズバーガー</p>
+    <div class="l-contents"><!--方向性：左半分はmain>section>article 右半分はnavでタグ分割-->
+        <div class="l-contents__leftcolumn"><!--メインコンテンツ左部分（ヘッダー⇒メイン）-->
+            <header class="l-header">
+                <div class="p-logo"><!--ヘッダー左部分-->
+                    <a href="#"><h1>Hamburger</h1></a>
                 </div>
-                <div class="p-archive__top__menutitle--blacklayer"></div>
-            </div>
+                <form class="p-search"><!--ヘッダー右部分-->
+                    <input class="p-search__box" placeholder="&#xf002" style="font-family: FontAwesome" type="search">
+                    <button class="p-search__button"><p>検索</p></button>
+                </form>
+            </header> 
 
-            <div class="p-archive__text">
-                <h3>小見出しが入ります</h3>
-                <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-            </div>
-
-            <section class="p-archive__center__wrapper">
-
-                <article class="p-archive__card">
-                    <img src="image/p-archive-card.jpg" alt="チーズバーガー">
-                    <div class="p-archive__card__introduce">
-                        <h4>チーズバーガー</h4>
-                        <h5>小見出しが入ります</h5>
-                        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                        <a href="#">詳しく見る</a>
+            <main class="l-main">
+                <div class="p-archive__top"><!--メイン：ハンバーガー写真-->
+                    <div class="p-archive__top__menutitle">
+                       <h2>Menu:</h2>
+                       <p>チーズバーガー</p>
                     </div>
-                </article>
+                    <div class="p-archive__top__menutitle--blacklayer"></div>
+                </div>
 
-                <article class="p-archive__card">
-                    <img src="image/p-archive-card.jpg" alt="ダブルチーズバーガー">
-                    <div class="p-archive__card__introduce">
-                        <h4>ダブルチーズバーガー</h4>
-                        <h5>小見出しが入ります</h5>
-                        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                        <a href="#">詳しく見る</a>
-                    </div>
-                </article>
+                <section class="p-archive__text">
+                    <h3>小見出しが入ります</h3>
+                    <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                </section>
 
-                <article class="p-archive__card">
-                    <img src="image/p-archive-card.jpg" alt="スペシャルチーズバーガー">
-                    <div class="p-archive__card__introduce">
-                        <h4>スペシャルチーズバーガー</h4>
-                        <h5>小見出しが入ります</h5>
-                        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                        <a href="#">詳しく見る</a>
-                    </div>
-                </article>
-
-            </section>
-
-            <nav class="p-pagenation">
-                <ul>
-                    <li class="p-pagenation__navi"><a>page 1/10</a></li>
-                    <li class="p-pagenation__mark--left"><a href="#"><<</a></li>
-                    <li class="p-pagenation__numberbutton"><a href ="#">1</a></li>
-                    <li class="p-pagenation__numberbutton"><a href ="#">2</a></li>
-                    <li class="p-pagenation__numberbutton"><a href ="#">3</a></li>
-                    <li class="p-pagenation__numberbutton"><a href ="#">4</a></li>
-                    <li class="p-pagenation__numberbutton"><a href ="#">5</a></li>
-                    <li class="p-pagenation__numberbutton"><a href ="#">6</a></li>
-                    <li class="p-pagenation__numberbutton"><a href ="#">7</a></li>
-                    <li class="p-pagenation__numberbutton"><a href ="#">8</a></li>
-                    <li class="p-pagenation__numberbutton"><a href ="#">9</a></li>
-                    <li class="p-pagenation__mark--right"><a href ="#">>></a></li>
-                </ul>
-            </nav>
-
-
-        </main>
-
-    </div>
-
-    <nav class="l-contents__rightcolumn"><!--メインコンテンツ右部分（サイドバー）-->
-        
-        <div class="p-sidebar"><!--方向性：各々の品物名⇒リンクを想定<a>タグで整理-->
-        <a href="#">
-            <p class="p-sidebar__title">Menu</p>
-        </a>
-            <ul>
-                <li><a href="#"><p class="p-sidebar__category">バーガー</p></a>
-                    <ui>
-                        <li class="p-sidebar__menu"><a href="#">ハンバーガー</a></li>
-                        <li class="p-sidebar__menu"><a href="#">チーズバーガー</a></li>
-                        <li class="p-sidebar__menu"><a href="#">テリヤキバーガー</a></li>
-                        <li class="p-sidebar__menu"><a href="#">アボカドバーガー</a></li>
-                        <li class="p-sidebar__menu"><a href="#">フィッシュバーガー</a></li>
-                        <li class="p-sidebar__menu"><a href="#">ベーコンバーガー</a></li>
-                        <li class="p-sidebar__menu"><a href="#">チキンバーガー</a></li>
+                <div class="p-archive__center__wrapper">
+                    <section class="p-archive__card">
+                        <img src="image/p-archive-card.jpg" alt="チーズバーガー">
+                        <article class="p-archive__card__introduce">
+                            <h4>チーズバーガー</h4>
+                            <h5>小見出しが入ります</h5>
+                            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                            <a href="#">詳しく見る</a>
+                        </article>
+                    </section>
+                    <section class="p-archive__card">
+                        <img src="image/p-archive-card.jpg" alt="ダブルチーズバーガー">
+                        <article class="p-archive__card__introduce">
+                            <h4>ダブルチーズバーガー</h4>
+                            <h5>小見出しが入ります</h5>
+                            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                            <a href="#">詳しく見る</a>
+                        </article>
+                    </section>
+                    <section class="p-archive__card">
+                        <img src="image/p-archive-card.jpg" alt="スペシャルチーズバーガー">
+                        <article class="p-archive__card__introduce">
+                            <h4>スペシャルチーズバーガー</h4>
+                            <h5>小見出しが入ります</h5>
+                            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                            <a href="#">詳しく見る</a>
+                        </article>
+                    </section>
+                </div>
+                <nav class="p-pagenation">
+                    <ul>
+                        <li class="p-pagenation__navi"><a>page 1/10</a></li>
+                        <li class="p-pagenation__mark--left"><a href="#"><<</a></li>
+                        <li class="p-pagenation__numberbutton"><a href ="#">1</a></li>
+                        <li class="p-pagenation__numberbutton"><a href ="#">2</a></li>
+                        <li class="p-pagenation__numberbutton"><a href ="#">3</a></li>
+                        <li class="p-pagenation__numberbutton"><a href ="#">4</a></li>
+                        <li class="p-pagenation__numberbutton"><a href ="#">5</a></li>
+                        <li class="p-pagenation__numberbutton"><a href ="#">6</a></li>
+                        <li class="p-pagenation__numberbutton"><a href ="#">7</a></li>
+                        <li class="p-pagenation__numberbutton"><a href ="#">8</a></li>
+                        <li class="p-pagenation__numberbutton"><a href ="#">9</a></li>
+                        <li class="p-pagenation__mark--right"><a href ="#">>></a></li>
                     </ul>
-                </li>
-                <li><a href="#"><p class="p-sidebar__category">サイド</p></a>
-                    <ui>
-                        <li class="p-sidebar__menu"><a href="#">ポテト</a></li>
-                        <li class="p-sidebar__menu"><a href="#">サラダ</a></li>
-                        <li class="p-sidebar__menu"><a href="#">ナゲット</a></li>
-                        <li class="p-sidebar__menu"><a href="#">コーン</a></li>
-                    </ui>
-                </li>
-                <li><a href="#"><p class="p-sidebar__category">ドリンク</p></a>
-                    <ui>
-                        <li class="p-sidebar__menu"><a href="#">コーラ</a></li>
-                        <li class="p-sidebar__menu"><a href="#">ファンタ</a></li>
-                        <li class="p-sidebar__menu"><a href="#">オレンジ</a></li>
-                        <li class="p-sidebar__menu"><a href="#">アップル</a></li>
-                        <li class="p-sidebar__menu"><a href="#">紅茶（Ice/Hot）</a></li>
-                        <li class="p-sidebar__menu"><a href="#">コーヒー（Ice/Hot）</a></li>
-                    </ui>
-                </li>
-            </ul>
-        </div>  
+                </nav>
+            </main>
+        </div>
 
-    </nav>
-
-</div>
-<!--方向性：footerはサイト下部に設置-->
-<footer class="l-footer">
-
-    <div class="p-footer">
-        <a href="#" class="p-footer__shopinfo">ショップ情報</a> 
-        <a href="#" class="p-footer__history">ヒストリー</a>
+        <nav class="l-contents__rightcolumn"><!--メインコンテンツ右部分（サイドバー）--> 
+            <div class="p-sidebar"><!--方向性：各々の品物名⇒リンクを想定<a>タグで整理-->
+                <a href="#"> <p class="p-sidebar__title">Menu</p></a>
+                <ul>
+                    <li><a href="#"><p class="p-sidebar__category">バーガー</p></a>
+                        <ui>
+                            <li class="p-sidebar__menu"><a href="#">ハンバーガー</a></li>
+                            <li class="p-sidebar__menu"><a href="#">チーズバーガー</a></li>
+                            <li class="p-sidebar__menu"><a href="#">テリヤキバーガー</a></li>
+                            <li class="p-sidebar__menu"><a href="#">アボカドバーガー</a></li>
+                            <li class="p-sidebar__menu"><a href="#">フィッシュバーガー</a></li>
+                            <li class="p-sidebar__menu"><a href="#">ベーコンバーガー</a></li>
+                            <li class="p-sidebar__menu"><a href="#">チキンバーガー</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><p class="p-sidebar__category">サイド</p></a>
+                        <ui>
+                            <li class="p-sidebar__menu"><a href="#">ポテト</a></li>
+                            <li class="p-sidebar__menu"><a href="#">サラダ</a></li>
+                            <li class="p-sidebar__menu"><a href="#">ナゲット</a></li>
+                            <li class="p-sidebar__menu"><a href="#">コーン</a></li>
+                        </ui>
+                    </li>
+                    <li><a href="#"><p class="p-sidebar__category">ドリンク</p></a>
+                        <ui>
+                            <li class="p-sidebar__menu"><a href="#">コーラ</a></li>
+                            <li class="p-sidebar__menu"><a href="#">ファンタ</a></li>
+                            <li class="p-sidebar__menu"><a href="#">オレンジ</a></li>
+                            <li class="p-sidebar__menu"><a href="#">アップル</a></li>
+                            <li class="p-sidebar__menu"><a href="#">紅茶（Ice/Hot）</a></li>
+                            <li class="p-sidebar__menu"><a href="#">コーヒー（Ice/Hot）</a></li>
+                        </ui>
+                    </li>
+                </ul>
+            </div>  
+        </nav>
     </div>
-    <small class="p-footer__copyright">Copyright: RaiseTech</small>
-
-</footer>
-
+    <footer class="l-footer"><!--方向性：footerはサイト下部に設置-->
+        <div class="p-footer">
+            <a href="#" class="p-footer__shopinfo">ショップ情報</a> 
+            <a href="#" class="p-footer__history">ヒストリー</a>
+        </div>
+        <small class="p-footer__copyright">Copyright: RaiseTech</small>
+    </footer>
 </body>
 
 </html>
