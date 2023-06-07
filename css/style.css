@@ -410,6 +410,10 @@ p {
   font-family: "Roboto", "M+ 1m";
 }
 
+ol {
+  font-family: "Roboto", "M+ 1m";
+}
+
 li {
   font-family: "Roboto", "M+ 1m";
   list-style: none;
@@ -1013,14 +1017,35 @@ blockquote {
 
 .p-single-main__list {
   margin-top: 60px;
+  margin-left: 60px;
   font-size: 16px;
+  font-family: "M+ 1m";
 }
 .p-single-main__list ol {
+  margin-left: 18px;
   line-height: 1.6;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
+  font-family: "M+ 1m";
 }
 .p-single-main__list ol li {
   list-style: decimal;
+  font-family: "M+ 1m";
+}
+.p-single-main__list ol li ol {
+  padding: 30px 20px;
+  font-family: "M+ 1m";
+}
+.p-single-main__list ul {
+  line-height: 1.6;
+  padding-top: 60px;
+  font-family: "M+ 1m";
+}
+.p-single-main__list ul li {
+  font-family: "M+ 1m";
+}
+.p-single-main__list ul li ul {
+  padding: 30px 20px;
+  font-family: "M+ 1m";
 }
 
 /**

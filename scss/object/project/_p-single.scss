@@ -134,14 +134,43 @@
 
 .p-single-main__list{
     margin-top: 60px;
+    margin-left: 60px;
     font-size: 16px;
+    font-family: "M+ 1m";
 
     ol{
+        margin-left: 18px;
         line-height: 1.6;
-        padding-bottom: 60px;
+        padding-bottom: 0px;
+        font-family: "M+ 1m";
 
         li{
             list-style: decimal;
+            font-family: "M+ 1m";
+            
+            ol{
+                padding: 30px 20px;
+                font-family: "M+ 1m";
+            }
         }
     }
+
+    ul{
+        line-height: 1.6;
+        padding-top: 60px;
+        font-family: "M+ 1m";
+
+        li{
+            font-family: "M+ 1m";
+            
+            ul{
+                padding: 30px 20px;
+                font-family: "M+ 1m";
+            }
+        }
+    }
+
+
+
 }
+
