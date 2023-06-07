@@ -184,6 +184,7 @@
 .p-single-main__table{
     width: 100%;
     font-size: 16px;
+    margin-bottom: 60px;
 
     tr{
         width: 100%;
@@ -204,4 +205,26 @@
             border-color: #707070;
         }
     }
+}
+
+.p-single-main__button{
+    height: 104px;
+    width: 31.34%;
+    border: 1px solid #707070;
+    color: #707070;
+    border-radius: 1em;
+    background: linear-gradient(to bottom, #F2EDE9, #DED8D3);
+    margin-bottom: 60px;
+    font-family: "M+ 1m";
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.p-single-main__caption{
+    font-family: "M+ 1m";
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 353px;
 }
