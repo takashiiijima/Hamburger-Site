@@ -1049,12 +1049,35 @@ blockquote {
   font-family: "M+ 1m";
 }
 
-.p-single-main-coding {
+.p-single-main__coding {
   padding: 50px;
   width: 100%;
   line-height: 1.5;
   background-color: #F5F5F5;
   font-family: "M+ 1m";
+  margin-bottom: 60px;
+}
+
+.p-single-main__table {
+  width: 100%;
+  font-size: 16px;
+}
+.p-single-main__table tr {
+  width: 100%;
+  font-weight: 500;
+  text-align: inherit;
+}
+.p-single-main__table tr .p-single-main__table__narrower {
+  width: 31.34%;
+  padding: 30px;
+  border: solid 1px;
+  border-color: #707070;
+}
+.p-single-main__table tr .p-single-main__table__wider {
+  width: 68.66%;
+  padding: 30px;
+  border: solid 1px;
+  border-color: #707070;
 }
 
 /**
