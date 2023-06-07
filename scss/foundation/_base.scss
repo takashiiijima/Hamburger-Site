@@ -23,11 +23,7 @@ h3 {
     font-weight: bold;
 }
 
-h4{
-    font-family: "Roboto","M+ 1m";
-}
-
-h5{
+h4, h5, h6 {
     font-family: "Roboto","M+ 1m";
 }
 
@@ -47,5 +43,8 @@ li {
 input {
     padding: 0 15px 0 15px;
     font-size: 22px;
+}
 
+blockquote {
+    font-family: "M+ 1m";
 }

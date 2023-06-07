@@ -1,0 +1,147 @@
+.p-single__top{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    background-image: url("../image/p-single-top.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px ;
+
+    > h2{
+        color: #ffffff;
+        font-size: 60px;
+        font-weight: bold;
+        margin-left: 86px;
+    }
+
+    > h3{
+        color: #ffffff;
+        font-size: 60px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+}
+
+.p-single-main__wrapper{
+    height: auto;
+    width: 100%;
+    padding: 60px 100px 0px 100px;
+}
+
+.p-single-main__text {
+     >h2 {
+        margin: 0 0 60px 0;
+        font-family: "M+ 1m";
+        font-size: 36px;
+        font-weight: bold;
+     }
+
+     >p {
+        margin: 0 0 60px 0;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 1.5;
+        font-family: "M+ 1m";
+     }
+
+     h3 {
+        margin: 0 0 60px 0;
+        font-family: "M+ 1m";
+        font-size: 28px;
+        font-weight: bold;
+     }
+
+     h4,h5,h6 {
+        margin: 0 0 60px 0;
+        font-family: "M+ 1m";
+        font-size: 20px;
+        font-weight: bold;
+     }
+}
+
+.p-single-main__blockquote{
+    padding: 50px 50px;
+    background-color: #F5F5F5;
+    line-height: 1.5;
+
+    blockquote{
+    margin-bottom: 60px;
+    }
+}
+
+.p-single-main__centerphoto{
+    width: 100%;
+    height: 500px;
+    background-image: url("../image/p-single-centerphoto.jpg");
+    margin-top: 60px;
+}
+
+.p-single-main__card{
+    min-height: 360px;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+
+    >img {
+       width: 42.89%;
+       height: auto;
+    }
+
+    .p-single-main__cardtext{
+        line-height: 1.5;
+        margin-left: 40px;
+        text-indent: 0.5rem;
+    }
+
+}
+
+.p-single-main__card__reverse{
+    min-height: 360px;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+
+    >img {
+       width: 42.89%;
+       height: auto;
+    }
+
+    .p-single-main__cardtext__reverse{
+        line-height: 1.5;
+        margin-right: 40px;
+        text-indent: 0.5rem;
+    }
+}
+
+.p-single-main__cardphoto{
+    margin: 60px auto 40px auto;
+    height: auto;
+    width: 43.04%;
+}
+
+.p-single-main__album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    img{
+        width: 32%;
+        margin-top: 20px;
+    }
+
+}
+
+.p-single-main__list{
+    margin-top: 60px;
+    font-size: 16px;
+
+    ol{
+        line-height: 1.6;
+        padding-bottom: 60px;
+
+        li{
+            list-style: decimal;
+        }
+    }
+}
