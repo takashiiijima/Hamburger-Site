@@ -2,6 +2,10 @@
     width: 19.11vw;
     height: auto;
     background-color:#F2EDE9;
+    
+    @include tablet{
+        display: none;
+    }
 }
 
 

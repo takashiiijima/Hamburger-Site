@@ -428,6 +428,9 @@ blockquote {
   font-family: "M+ 1m";
 }
 
+/*ブレイクポイント定義*/
+/*タブレット（ipad）*/
+/*スマートフォン（iphone）*/
 .l-contents {
   display: flex;
   max-width: 1920px;

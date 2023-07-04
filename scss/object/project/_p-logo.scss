@@ -2,5 +2,9 @@
     font-size: 4rem;
     color: #707070;
     margin-left: 4rem;
+
+    @include tablet{
+        display: none;
+    }
 }
 
