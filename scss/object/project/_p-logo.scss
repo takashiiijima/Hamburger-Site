@@ -3,7 +3,7 @@
     color: #707070;
     margin-left: 4rem;
 
-    @include tablet{
+    @include tab{
         display: none;
     }
 }

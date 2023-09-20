@@ -2,21 +2,21 @@
 
 /*ブレイクポイント定義*/
 /*タブレット（ipad）*/
-$tablet: 834px;
+$tab: 834px;
 
 /*スマートフォン（iphone）*/
-$smartphone: 375px;
+$sp: 375px;
 
 
-@mixin tablet {
-    @media (max-width: ($tablet)) {
+@mixin tab {
+    @media (max-width: ($tab)) {
         @content;
     }
 }
 
 
-@mixin smartphone {
-    @media (max-width: ($smartphone)) {
+@mixin sp {
+    @media (max-width: ($sp)) {
         @content;
     }
 }
