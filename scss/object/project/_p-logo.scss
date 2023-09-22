@@ -3,8 +3,16 @@
     color: #707070;
     margin-left: 4rem;
 
+    @include pc {
+        font-size: 3rem;
+    }
+
     @include tab{
-        display: none;
+        font-size: 2rem;
+    }
+
+    @include sp {
+        font-size: 1rem;
     }
 }
 
